@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    height: 200px;
+    width: 200px;
+
+}
+
+.absolute{
+    background-color: rgb(187, 116, 9);
+    position: absolute;
+    top: 40px;
+
+}
+
+.relative{
+    background-color: black;
+    position:relative ;
+    bottom: 20px;
+    display: inline-block;
+}
+
+ .box-relative .rel{
+    position: relative;
+    background-color: gray;
+    left: 20px;
+
+}
+.box-relative .ab{
+    background-color: rgb(235, 231, 8);
+    position:absolute ;
+    top: 600px;
+}
+
+.fix{
+    background-color: brown;
+    position: fixed;
+    right: 70px;
+}
+
+.sticky{
+    background-color:rgb(54, 190, 13);
+    position: sticky;
+    right: 90px;
+    width: 500px;
+    height: 500px;
+}

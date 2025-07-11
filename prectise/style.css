@@ -1,0 +1,113 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.s{
+    text-align: center;
+}
+
+.s h2{
+    color: goldenrod;
+    display: inline-block;
+    position: relative;
+    margin: 90px;
+    font-style: italic;
+} 
+
+.s h2::before{
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: rgb(44, 33, 5);
+    position: absolute;
+    top: 11px;
+    left: -60px;
+
+
+}
+
+.s h2::after{
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: rgb(44, 33, 5);
+    position: absolute;
+    top: 11px;
+    right: -70px;
+    
+}
+
+/* p */
+.i::first-letter{
+    font-size: 40px;
+    color: brown;
+}
+
+.i::first-line{
+    font-variant:small-caps;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(4, 30, 104);
+}
+/* box */
+.A{
+    background-color:goldenrod;
+    margin:0 auto;
+    position: relative;
+    height: 220px;
+    width: 220px;
+
+}
+
+.A .s{
+    height: 140px;
+    width: 140px;
+}
+
+.A .s1{
+    background-color: #5a1313;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+
+}
+.A .s2{
+    background-color: aqua;
+    position: absolute;
+    left: 0px;  
+    bottom: 0px;
+    
+}
+
+.A .s3{
+    background-color: #143a03;
+    position: absolute;
+    top: 0px;
+}
+.BFAF{
+    background-color: #5a1313;
+    position: relative;
+    height: 220px;
+    width: 220px;
+    margin: 40px auto;
+}
+
+.BFAF::before{
+    content: s1;
+    position: absolute;
+    background-color: rgb(192, 155, 226);
+    top: 0px;
+    right: 0px;
+    height: 120px;
+    width: 120px;
+
+}
+.BFAF::after{
+    content: s2;
+    position: absolute;
+    background-color: #3f8f6a;
+    left: 0px;
+    bottom: 0px;
+    height: 120px;
+    width: 120px;
+}

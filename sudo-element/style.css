@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+.s{
+    text-align: center;
+}
+
+.s h2{
+    margin-bottom: 79px;
+    color: brown;
+    position: relative;
+    display: inline-block;
+
+
+}
+.s h2::before{
+    content: "";
+    position: absolute;
+    height: 2px; 
+    width: 50px; 
+    background: brown;
+    top: 15px;
+    left:-60px ;    
+
+}
+.s h2::after{
+    content: "";
+    margin-top:1px;
+    position: absolute;
+    height: 2px; 
+    width: 50px; 
+    background: brown;
+    top: 14px;
+    right:-60px ;
+}
+/* p1 */
+.p1{
+    background:goldenrod;
+    margin:0 auto ;
+    position: relative;
+    height: 340px;
+    width: 340px;
+}
+.p1 .b{
+    height: 120px;
+    width: 120px;
+}
+.p1 .box1{
+    background-color:rgb(6, 39, 6);
+    position: absolute;
+    right: 0px;
+    top: 0px;
+
+}
+
+.p1 .box2{
+    background-color:greenyellow;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+
+}
+
+.bfaf{
+    background-color: palevioletred;
+    height: 340px;
+    width: 340px;
+    position: relative;
+    margin: 20px auto;
+
+}
+.bfaf::before{
+    content:"b1";
+    background-color:rgb(12, 1, 22);
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 120px;
+    width: 120px;
+}
+.bfaf::after{
+    content: "b2";
+    background-color:blueviolet;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 120px;
+    width: 120px;
+}
+ul{
+    margin: 40px;
+}
+li::before{
+    content: "\ea6b";
+    font-family: remixicon !important;
+
+
+}
+li::after{
+     content: "\ea6b";
+    font-family: remixicon !important;
+
+}
+
+.info::first-line{
+    color: blueviolet;
+    font-variant: small-caps;
+}
+
+.info::first-letter{
+    color: peru;
+    font-size: x-large;
+}
+
+.button{
+    margin: 10px;
+    position: relative;
+    
+}
+.input{
+    height: 50px;
+    width: 200px;
+    
+    
+}
+.submit{
+    color: rgb(219, 140, 21);
+    height: 30px;
+    width: 50px;
+    position: absolute;
+    top: 5px;
+    left :90px;
+
+}
+
+
+

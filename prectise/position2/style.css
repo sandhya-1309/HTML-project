@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+}
+.absolut{
+    background-color: pink;
+    top: 20px;
+    position: absolute;
+
+}
+
+.relative{
+    background-color: yellow;
+    position: relative;
+    bottom: 40px;
+}

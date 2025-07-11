@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+    padding: 0px;
+ box-sizing: border-box;
+}
+
+.container {
+    /* max-width: 1320px;  */
+    */ max-width: 1140px;
+    */ padding: 0 20px;
+    margin: 0 auto;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+.btn {
+    color: blueviolet;
+    background-color: red;
+    padding: 20px 48px;
+    /* display: inline-block */
+
+}
+
+
+.btn1:active {
+    color:pink;
+    background-color: rgb(202, 44, 44);
+    margin: 50px;
+}
+
+.btn2:focus {
+    color: blue;
+    background-color: rgb(13, 224, 66);
+}
+
+.btn3:hover {
+    color:purple;
+    background-color: rgb(49, 228, 49);
+    width: 200px;
+    /* transition: 3s; */
+    transform:translate(-10px);
+    
+}
